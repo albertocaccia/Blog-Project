@@ -74,6 +74,7 @@ WSGI_APPLICATION = 'my_project.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
+# dove salvo i miei post
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
@@ -104,8 +105,10 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
 
+#il mio linguaggio
 LANGUAGE_CODE = 'en-us'
 
+#il mio fuso orario
 TIME_ZONE = 'Europe/Rome'
 
 USE_I18N = True
